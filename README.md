@@ -11,60 +11,44 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+# React with Firebase (TO-DO List)
+	•	First install the react background in your pc
+	•	npx create-react-app todoapp
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+	•	Go to created file path
+### `cd todoapp`
 
-### `npm run build`
+	•	Start react app
+### `npm start`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+	•	Install react boostrap for more designing
+### `npm install react-bootstrap bootstrap@4.6.0`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+	•	After adding this add manually boostrap.min.css file 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+	•	That boostrap file import it into index.js  file (If it is not adding react-boostrap not working properly).
 
-### `npm run eject`
+	•	After setup screen design and all of that install the firebase react hooks inside project.
+### `npm i firebase react-firebase-hooks`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+	•	For intarct with our functions we have to add firebase tools also
+### `npm i -D firebase-tools`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+	•	After installing these two dependencies you have to initialize firebase in your project using this command
+### `npx firebase init`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+	•	If is not working your firebase init then you have to login in firebase using this command after you can enter your before command to go it further more.
+### `npx firebase login`
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+	•	After that you have to select under the selection what is your database type choosen by you.It is choosen by tapping your “space bar”.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+	•	After press enter and shown “please select an Option?”. In here you must select your existing project to set firebase.
+	•	After clicking enter you have to select which firebase database name you have to do implementing your application.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+	•	Then Asking Firebase rules => click enter and also Firestore indexes => Click enter
 
-### Code Splitting
+	•	Finally Setup your react app with selected Firebase cloud directory. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
